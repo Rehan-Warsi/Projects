@@ -1,0 +1,27 @@
+{
+  "name": "@rehan-warsi/adventure-game",
+  "version": "1.0.0",
+  "description": "Adventure Game is a CLI based project using Typescript",
+  "main": "main.js",
+  "type": "module",
+  "bin": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "@rehan-warsi",
+    "PIAIC",
+    "Adventure Game",
+    "CLI",
+    "Typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "inquirer": "^9.1.4"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3"
+  }
+}

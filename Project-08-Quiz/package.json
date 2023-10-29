@@ -1,0 +1,27 @@
+{
+  "name": "@rehan-warsi/cli-quiz",
+  "version": "1.0.0",
+  "description": "The app will show the students multiple choice questions and promt the user to reply. In the end it will show the students the result of the quiz.",
+  "main": "main.js",
+  "type": "module",
+  "bin": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "@rehan-warsi",
+    "PIAIC",
+    "CLI QUIZ",
+    "Typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.11",
+    "nanospinner": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.6"
+  }
+}

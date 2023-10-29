@@ -1,0 +1,26 @@
+{
+  "name": "@rehan-warsi/todos",
+  "version": "1.0.0",
+  "description": "a simple command line Todo app using TypeScipt, Node.js and Inquirer.",
+  "main": "main.js",
+  "type": "module",
+  "bin": {
+    "ATM": "main.js"
+  },
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rehan warsi",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.1",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^20.5.7"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.10"
+  }
+}

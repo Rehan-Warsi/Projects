@@ -1,0 +1,29 @@
+{
+    "name": "@rehan-warsi/oop-project",
+    "version": "1.0.0",
+    "description": "This Project is based upon the basic techniques used in Object Oriented Programming.",
+    "main": "main.js",
+    "type": "module",
+    "bin": "./main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "Rehan Warsi",
+        "PIAIC",
+        "OOP Project",
+        "Typescript"
+    ],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/inquirer": "^9.0.3"
+    },
+    "dependencies": {
+        "@types/chalk-animation": "^1.6.2",
+        "chalk-animation": "^2.0.3",
+        "chalks": "^0.1.5",
+        "inquirer": "^9.2.3",
+        "nanospinner": "^1.1.0"
+    }
+}

@@ -46,6 +46,8 @@ let startQuiz = async () => {
         if(ans.quiz == apiData[i].correct_answer){
             ++score
             console.log(`\nCorrect answers is ${chalk.bold.italic.underline.yellowBright(apiData[i].correct_answer)}\n`)
+        }else {
+            console.log(`\nCorrect answers is ${chalk.bold.italic.underline.redBright(apiData[i].correct_answer)}\n`)
         }
 
     }

@@ -36,6 +36,9 @@ let startQuiz = async () => {
             ++score;
             console.log(`\nCorrect answers is ${chalk.bold.italic.underline.yellowBright(apiData[i].correct_answer)}\n`);
         }
+        else {
+            console.log(`\nCorrect answers is ${chalk.bold.italic.underline.redBright(apiData[i].correct_answer)}\n`);
+        }
     }
     console.log(`Dear ${chalk.bold.greenBright(name.userName)} Your Score is ${chalk.bold.red(score)} out of ${chalk.bold.red(5)}`);
 };

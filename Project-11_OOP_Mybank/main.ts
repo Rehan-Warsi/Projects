@@ -25,10 +25,10 @@ for(var i = 1; i <= 10; i++){
     let lname = faker.person.lastName()
     let mobNumber = faker.phone.number("3##-###-####")
     let gen = faker.person.sexType()
-    //let bal = Math.floor(Math.random() * 1000)
+    let age = Math.floor(Math.random() * (65-20+1)+20) // To generate random age from 20 to 65 years 
 
 
-    const newCustomer = new Customers(fname,lname,25+5,gen,1000+i,mobNumber)
+    const newCustomer = new Customers(fname,lname,age,gen,1000+i,mobNumber)
     const newAccount = {Account_No:newCustomer.Account_No,Balance:500*i}
           
     myBank.addCustomer(newCustomer)

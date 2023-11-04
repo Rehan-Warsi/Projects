@@ -1,12 +1,13 @@
 # OOP MY BANK
 
-A CLI based app that simulates working of a bank following OOP patterns By Rehan Warsi
+    * A CLI based app that simulates working of a bank following OOP patterns By Rehan Warsi
 
 ---
 
 # Description 
-A CLI based app that simulates working of a bank following the Object Orienter Programming patterns 
-@faker-js/faker is used to Add fake Customers in bulk quantity
+
+    * A CLI based app that simulates working of a bank following the Object Orienter Programming patterns 
+    @faker-js/faker is used to Add fake Customers in bulk quantity
 
 
 
@@ -16,9 +17,9 @@ A CLI based app that simulates working of a bank following the Object Orienter P
 
 ---
 
-# Command
+# Run Command
 
-    npx main
+    npx oop-mybank
 
 ---
 

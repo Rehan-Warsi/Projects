@@ -53,9 +53,9 @@ while (continueLoop) {
         printList(newTodo, todoType);
     }
     if (menu.todo == "Update Tasks") {
-        if (!completedTodo.length) {
+        if (!newTodo.length) {
             console.log(chalk.bgRedBright(`\nYour Task List is Empty\n`));
-            break;
+            continue;
         }
         let ansUpdatedTask = await inquirer.prompt([
             {

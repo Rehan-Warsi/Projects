@@ -27,6 +27,7 @@ const addTask = (Todo :string[],task:string) => {
 /************************************************ UPDATE COMPLETED TODOS ************************************************/ 
 
 const updateTask = (completedTodo :string[],newTodo:string[],task:string) => {
+   
   let indexNo = newTodo.indexOf(task)
   completedTodo.push(task) 
   newTodo.splice(indexNo,1)

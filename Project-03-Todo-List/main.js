@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import { welcome, addTask, updateTask, printList } from "./functions.js";
 import inquirer from "inquirer";
+import chalk from "chalk";
 console.clear();
 let messsage = `
                                             ****************************************
@@ -52,6 +53,10 @@ while (continueLoop) {
         printList(newTodo, todoType);
     }
     if (menu.todo == "Update Tasks") {
+        if (!completedTodo.length) {
+            console.log(chalk.bgRedBright(`\nYour Task List is Empty\n`));
+            break;
+        }
         let ansUpdatedTask = await inquirer.prompt([
             {
                 name: "answer",

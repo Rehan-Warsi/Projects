@@ -68,6 +68,11 @@ while (continueLoop){
        }    
 
        if (menu.todo == "Update Tasks"){
+        if(!completedTodo.length){
+            console.log(chalk.bgRedBright(`\nYour Task List is Empty\n`))
+            break
+        }
+
         let ansUpdatedTask :{ answer : string}  = await inquirer.prompt([
             {
                 name : "answer",
@@ -76,7 +81,8 @@ while (continueLoop){
                 choices: newTodo
             }
         ])
-
+        
+        
         updateTask(completedTodo,newTodo,ansUpdatedTask.answer)
                 
         }

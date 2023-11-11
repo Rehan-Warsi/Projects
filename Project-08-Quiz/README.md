@@ -16,7 +16,7 @@ The app will show the students multiple choice questions and promt the user to r
 
 # Command
 
-    npx main
+    npx quiz
 
 ---
 

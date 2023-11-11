@@ -1,12 +1,12 @@
 # INTERACTIVE COUNTDOWN TIMER 
 
-CLI based Interactive Countdown Timer By Rehan Warsi
+    * CLI based Interactive Countdown Timer By Rehan Warsi
 
 ---
 
 # Description 
 
-CLI based Interactive Countdown Timer
+    * CLI based Interactive Countdown Timer
 
 
 # Installation
@@ -15,9 +15,9 @@ CLI based Interactive Countdown Timer
 
 ---
 
-# Command
+# Run Command
 
-    npx main
+    npx countdown-timer
 
 ---
 

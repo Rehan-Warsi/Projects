@@ -16,9 +16,9 @@ By Rehan Warsi
 
 ---
 
-# Command
+# Run Command
 
-    npx main
+    npx oop
 
 ---
 

@@ -1,17 +1,20 @@
 {
   "name": "@rehan-warsi/atm",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "ATM",
   "main": "main.js",
   "type": "module",
   "bin": {
     "ATM": "main.js"
   },
-  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["Rehan Warsi","PIAIC","ATM"],
+  "keywords": [
+    "RehanWarsi",
+    "PIAIC",
+    "ATM"
+  ],
   "author": "Rehan warsi",
   "license": "ISC",
   "devDependencies": {
@@ -21,6 +24,7 @@
   },
   "dependencies": {
     "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
     "inquirer": "^9.2.10"
   }
 }
